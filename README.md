@@ -2,9 +2,9 @@
 # MyToken Contract
 
 
-This is a straightforward Solidity smart contract that generates a token with the name "TOCKEN" and the initials "TOC." It employs a mapping of addresses to balances to keep track of how many tokens each address possesses and has a total supply that starts at 0.
+This is a straightforward Solidity smart contract that generates a token with the name "TOCKEN" and the initials "NEW". It employs a mapping of addresses to balances to keep track of how many tokens each address possesses and has a total that starts at 0.
 
-Two functions, mint and burn, are included in the contract.
+Two functions, minting and burning, are included in the contract.
 
 
 ## Description
@@ -14,7 +14,7 @@ This program is a straightforward contract written in remix. The contract lets y
 
 ## Requirements
 
-1)There are three public variables in the contract that record information about the coin: tokenName, tokenAbbrv, and totalSupply.
+1)There are three public variables in the contract that record information about the coin: tokenName and total.
 
 2)The contract employs an address-to-balance mapping: mapping(address => uint) public balances.
 
