@@ -19,21 +19,23 @@ contract MyToken {
 
     // public variables here
     string public tokenname = "NEW"; 
+    string public tokenabbreviation= "TOKEN";
     uint public total = 0;
+    
 // mapping variable here 
  mapping(address=> uint) public balances;
 
 //mint function
 function minting (address _address, uint value) public { 
-    total += value; 
-    balances [_address] += value;
+    total = total+ value; 
+    balances [_address] = balances [_address]+ value;
 
 }
 // burn function 
 function burning (address _address, uint value) public {
 if (balances[_address] >= value) {
-total -=  value;
-balances[_address]  -= value;
+total = total- value; 
+    balances [_address] = balances [_address]- value;
 }
 }
 }
