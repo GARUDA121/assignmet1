@@ -2,7 +2,7 @@
 # MyToken Contract
 
 
-This is a straightforward Solidity smart contract that generates a token with the name "TOCKEN" and the initials "NEW". It employs a mapping of addresses to balances to keep track of how many tokens each address possesses and has a total that starts at 0.
+This is a straightforward Solidity smart contract that generates a token with the name "TOCKEN" and the initials "NEW". It has a token abbrivation as "TOKEN".It employs a mapping of addresses to balances to keep track of how many tokens each address possesses and has a total that starts at 0.
 
 Two functions, minting and burning, are included in the contract.
 
