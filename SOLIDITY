@@ -35,7 +35,7 @@ function minting (address _address, uint value) public {
 function burning (address _address, uint value) public {
 if (balances[_address] >= value) {
 total = total- value; 
-    balances [_address] = balances [_address]- value;
+balances [_address] = balances [_address]- value;
 }
 }
 }
